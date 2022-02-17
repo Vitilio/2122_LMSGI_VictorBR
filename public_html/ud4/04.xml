@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE cvitae SYSTEM "04.dtd">
+
+<cvitae
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='04.xsd'>
+    <nombre>Victor</nombre>
+    <apellidos>Blanco Rodrigo</apellidos>
+    <anyoNac>2001</anyoNac>
+    <residencia>
+        <ciudad>Benavente</ciudad>
+        <pais>España</pais>
+    </residencia>
+    <datosContacto>
+        <telefono>646275623</telefono>
+        <email>victor.blarod@educa.jcyl.es</email>
+        <linkedin>https://es.linkedin.com/VictorBlanco</linkedin>
+        <descripcion>Estudiante</descripcion>
+        <competencias>
+            <competencia nombre="Creacion de bases de datos en MySQL" nivel="medio"/>
+            <competencia nombre="Programacion en Java" nivel="medio"/>
+            <competencia nombre="Desarollo de paginas web" nivel="basico"/>
+        </competencias>
+        <formaciones>
+            <formacion titulacion="Bachillerato de Ciencias" centro="IES Los Sauces" anyo="2020"/>
+            <formacion titulacion="B2" centro="EOI Benavente"/>
+        </formaciones>
+        <experiencias>
+            <experiencia puesto="cajero" empresa="Burger King" anyoInicio="2015" anyoFinal="2017"/>
+        </experiencias>
+    </datosContacto>
+</cvitae>

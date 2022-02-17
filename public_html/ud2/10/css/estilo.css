@@ -1,0 +1,137 @@
+
+body>header{
+   background-color: goldenrod;
+   color: #FF4500;
+   padding: 8px 5px;
+   margin-top: 25px;
+   font-size: 35px;
+   font-variant: small-caps;
+}
+*{
+    width: 700px; 
+    font-family: 'calibri',arial,sans-serif;
+}
+html>body{
+    background: url("../images/Le_petit_prince.png") no-repeat 45% 0%;
+    background-size: 340px;
+    background-attachment:fixed;   
+    margin:10px;
+    font-size: 20px;
+}
+.par1{
+    color: green;
+    background-color: lightblue;
+    font-weight: bold;
+    padding: 5px;
+    margin: 20px 0px; 
+}
+
+.static{
+    border: 2px solid #E9967A;
+    position: static;
+    width: 98%;
+    padding: 10px;
+}
+
+.relative{
+    border: 2px dotted #9932CC;
+    position: relative;
+    left: 50px;
+    padding: 10px;
+}
+
+.fixed{
+    border: 2px dashed #39ba3c;
+    background-color: #D79A51;
+    position: fixed;
+    width: 15em;
+    left: 38%;
+    padding: 10px 5px;
+}
+
+.relative1{
+    position: relative;
+    border: 2px solid darkgreen;
+    height: 170px;
+}
+
+.absolute1{
+    position: absolute;
+    border: 2px chartreuse groove; 
+    width: 50%;
+    right: 0.5%;
+    bottom: 2%;
+    height: 100px;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    color: lime;
+    background-color: darkgreen;
+    border: 2px solid lime;
+    border-radius: 20px 20px;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.container{
+    border: 2px solid purple;
+}
+
+.container>div{
+    background-color: darkorange;
+    border: 2px solid purple;
+    font-variant: small-caps;
+    color: purple;
+    display: inline;
+}
+
+.img1{
+    position:absolute;
+    z-index: -1;
+    height: 150px;
+    width: 150px;
+    opacity: 0.8;
+}
+relative1>p{
+    position: absolute;
+    top: 500px;
+    right: 40px;
+}
+.container{
+    position: relative;
+}
+.container>div{
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 5px;
+}
+.topleft{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.topright{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    text-align: center;
+}
+.bottomright{
+    position: absolute;
+    bottom: 8px;
+    right : 8px;
+}
+.bottomleft{
+    position: absolute;
+    bottom:  8px;
+    left: 8px;
+    
+}

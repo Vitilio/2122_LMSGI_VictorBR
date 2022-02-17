@@ -1,0 +1,20 @@
+<!ELEMENT prediccion (municipio,dia+)>
+<!ATTLIST prediccion
+          xmlns:xsi CDATA #IMPLIED
+          xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT municipio (nombre,provincia)>
+<!ATTLIST municipio id ID #REQUIRED>
+<!ELEMENT dia (prob_precipitacion,estado_cielo,viento,temperatura)>
+<!ATTLIST dia fecha CDATA #REQUIRED>
+<!ELEMENT viento (direccion,velocidad)>
+<!ELEMENT temperatura (maxima,minima)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT prob_precipitacion (#PCDATA)>
+<!ELEMENT estado_cielo (#PCDATA)>
+<!ATTLIST estado_cielo descripcion CDATA #REQUIRED>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT velocidad (#PCDATA)>
+<!ELEMENT maxima (#PCDATA)>
+<!ELEMENT minima (#PCDATA)>
+

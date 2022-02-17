@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE lugares SYSTEM "08.dtd">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+Como lugares tiene texto, puede ser PCDATA
+-->
+
+<lugares
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='08.xsd'>
+    En el <lugar>polo norte</lugar> hace mucho frío. Pero, en el <lugar>desierto del Sahara</lugar> hace mucho calor.
+</lugares>

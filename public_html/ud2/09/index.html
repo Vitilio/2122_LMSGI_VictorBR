@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<!--
+    Descripcion: 9ªPractica de html(Horario con estilos)
+    Autor: Víctor Blanco Rodrigo
+    Fecha creación/modificación: 27/11/2021 | 08/11/2021
+-->
+<html lang="es">
+    <head>
+        <title>HTML 09 Victor Blanco Rodrigo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Horario de DAW1 Curso 21-22 (Modulos y Profesores)con estilos">
+        <meta name="author" content="Víctor Blanco Rodrigo">
+        <meta name="keywords" content="curso,grupo,horas,modulos,profesor">
+        <meta name="robots" content="index,nofollow">
+        <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>HORARIO ESCOLAR CURSO 2021-22</h1>
+                <figure>
+                    <img src="image/logosauces.jpg">
+                    <figcaption>Logo IES Los Sauces</figcaption>
+                </figure>
+            </header>
+            <nav>
+                <a href="#HORARIO">HORARIO</a>
+                <a href="#EDD">EDD</a>
+                <a href="#LMSGI">LMSGI</a>
+                <a href="#PROG">PROG</a>
+                <a href="#BBDD">BBDD</a>
+                <a href="#FOL">FOL</a>
+                <a href="#SINF">SINF</a>
+            </nav>
+            <section>
+                <h2 hidden>Tablas</h2>
+                <article id="HORARIO">
+                    <header>
+                        <h3>Curso: 1º	Grupo: DAW1</h3>
+                    </header>
+                    <table>
+                        <thead>			
+                            <tr>
+                                <th>Horas</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miercoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>De 08:30 <br> Hasta 09:20</td>
+                                <td rowspan="2" class="LMSGI"><abbr title="Lenguaje de Marcas y Sistemas de Gestion Informaticos"><b>LMSGI</b></abbr> <br><abbr title="Amor Rodriguez Navarro"><i>ARIF</i></abbr></td>
+                                <td rowspan="2" class="EDD"><abbr title="Entornos De Desarrollo"><b>EDD</b></abbr> <br> <abbr title="Javier Coque García"><i>JCIF</i></abbr></td>
+                                <td rowspan="2" class="BBDD"><abbr title="Bases de Datos"><b>BBDD</b></abbr><br><abbr title="Hermelinda Ramos Osorio"><i>MELI</i></abbr></td>
+                                <td rowspan="2" class="PROG"><abbr title="Programación"><b>PROG</b></abbr> <br> <abbr title="Ambrosio Casado Fernandez"><i>AMB</i></abbr></td>
+                                <td rowspan="2" class="BBDD"><abbr title="Bases de Datos"><b>BBDD</b></abbr><br><abbr title="Hermelinda Ramos Osorio"><i>MELI</i></abbr></td>
+                            </tr>
+                            <tr>
+                                <td>De 09:20 <br> Hasta 10:10</td>
+                            </tr>
+                            <tr>
+                                <td>De 10:10 <br> Hasta 11:00</td>
+                                <td rowspan="2" class="FOL"><abbr title="Formación y Orientación Laboral"><b>FOL</b></abbr> <br><abbr title="Maria Enriqueta Gonzalez Carnero"><i>MGFO</i></abbr> </td>
+                                <td rowspan="2" class="BBDD"><abbr title="Bases de Datos"><b>BBDD</b></abbr><br><abbr title="Hermelinda Ramos Osorio"><i>MELI</i></abbr></td>
+                                <td rowspan="2" class="SINF"><abbr title="Sistemas Informaticos"><b>SINF</b></abbr> <br><abbr title="Valter Jorge de Sousa Raposo"><i>VSIF</i></abbr> </td>
+                                <td rowspan="2" class="LMSGI"><abbr title="Lenguaje de Marcas y Sistemas de Gestion Informaticos"><b>LMSGI</b></abbr> <br><abbr title="Amor Rodriguez Navarro"><i>ARIF</i></abbr></td>
+                                <td class="EDD"><abbr title="Entornos De Desarrollo"><b>EDD</b></abbr> <br> <abbr title="Javier Coque García"><i>JCIF</i></abbr></td>
+                            </tr>
+                            <tr>
+                                <td>De 11:25 <br> Hasta 12:15</td>
+                                <td class="FOL"><abbr title="Formación y Orientación Laboral"><b>FOL</b></abbr> <br><abbr title="Maria Enriqueta Gonzalez Carnero"><i>MGFO</i></abbr></td>
+                            </tr>
+                            <tr>
+                                <td>De 12:15 <br> Hasta 13:05</td>
+                                <td rowspan="2" class="SINF"><abbr title="Sistemas Informaticos"><b>SINF</b></abbr> <br><abbr title="Valter Jorge de Sousa Raposo"><i>VSIF</i></abbr></td>
+                                <td rowspan="2" class="PROG"><abbr title="Programación"><b>PROG</b></abbr> <br> <abbr title="Ambrosio Casado Fernandez"><i>AMB</i></abbr></td>
+                                <td rowspan="2" class="PROG"><abbr title="Programación"><b>PROG</b></abbr> <br> <abbr title="Ambrosio Casado Fernandez"><i>AMB</i></abbr></td>
+                                <td rowspan="2" class="SINF"><abbr title="Sistemas Informaticos"><b>SINF</b></abbr> <br><abbr title="Valter Jorge de Sousa Raposo"><i>VSIF</i></abbr></td>
+                                <td rowspan="2" class="PROG"><abbr title="Programación"><b>PROG</b></abbr> <br> <abbr title="Ambrosio Casado Fernandez"><i>AMB</i></abbr></td>
+                            </tr>
+                            <tr>
+                                <td>De 13:05 <br> Hasta 13:55</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <footer>
+                        <p>Tutor. Javier Coque García</p>
+                    </footer>
+                </article>
+                <article id="LMSGI"> 
+                    <header>
+                        <h3>Lenguaje de Marcas y Sistemas de Gestion Informaticos</h3>
+                    </header>
+                    <table>
+                        <thead>			
+                            <tr>
+                                <th>Horas</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miercoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>De 08:30 <br> Hasta 09:20</td>
+                                <td rowspan="2"><abbr title="Lenguaje de Marcas y Sistemas de Gestion Informaticos"><b>LMSGI</b></abbr> <br><abbr title="Amor Rodriguez Navarro"><i>ARIF</i></abbr></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>De 09:20 <br> Hasta 10:10</td>
+                            </tr>
+                            <tr>
+                                <td>De 10:10 <br> Hasta 11:00</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"><abbr title="Lenguaje de Marcas y Sistemas de Gestion Informaticos"><b>LMSGI</b></abbr> <br><abbr title="Amor Rodriguez Navarro"><i>ARIF</i></abbr></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>De 11:25 <br> Hasta 12:15</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>De 12:15 <br> Hasta 13:05</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>							
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>De 13:05 <br> Hasta 13:55</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <footer>
+                        <p>Profesor/a. Amor Rodriguez Navarro</p>
+                    </footer>
+                </article>
+                <article id="BBDD"> 
+                    <header>
+                        <h3>Bases de Datos</h3>
+                    </header>
+                    <table>
+                        <thead>			
+                            <tr>
+                                <th>Horas</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miercoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>De 08:30 <br> Hasta 09:20</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"><abbr title="Bases de Datos"><b>BBDD</b></abbr><br><abbr title="Hermelinda Ramos Osorio"><i>MELI</i></abbr></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"><abbr title="Bases de Datos"><b>BBDD</b></abbr><br><abbr title="Hermelinda Ramos Osorio"><i>MELI</i></abbr></td>
+                            </tr>
+                            <tr>
+                                <td>De 09:20 <br> Hasta 10:10</td>
+                            </tr>
+                            <tr>
+                                <td>De 10:10 <br> Hasta 11:00</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"><abbr title="Bases de Datos"><b>BBDD</b></abbr><br><abbr title="Hermelinda Ramos Osorio"><i>MELI</i></abbr></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>De 11:25 <br> Hasta 12:15</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>De 12:15 <br> Hasta 13:05</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>De 13:05 <br> Hasta 13:55</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <footer>
+                        <p>Profesor/a. Hermelinda Ramos Osorio</p>
+                    </footer>
+                </article>
+                <article id="PROG">
+                    <header>
+                        <h3>Programación</h3>
+                    </header>
+                    <table>
+                        <thead>			
+                            <tr>
+                                <th>Horas</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miercoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>De 08:30 <br> Hasta 09:20</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"><abbr title="Programación"><b>PROG</b></abbr> <br> <abbr title="Ambrosio Casado Fernandez"><i>AMB</i></abbr></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>De 09:20 <br> Hasta 10:10</td>
+                            </tr>
+                            <tr>
+                                <td>De 10:10 <br> Hasta 11:00</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>De 11:25 <br> Hasta 12:15</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>De 12:15 <br> Hasta 13:05</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"><abbr title="Programación"><b>PROG</b></abbr> <br> <abbr title="Ambrosio Casado Fernandez"><i>AMB</i></abbr></td>
+                                <td rowspan="2"><abbr title="Programación"><b>PROG</b></abbr> <br> <abbr title="Ambrosio Casado Fernandez"><i>AMB</i></abbr></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"><abbr title="Programación"><b>PROG</b></abbr> <br> <abbr title="Ambrosio Casado Fernandez"><i>AMB</i></abbr></td>
+                            </tr>
+                            <tr>
+                                <td>De 13:05 <br> Hasta 13:55</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <footer>
+                        <p>Profesor/a. Ambrosio Casado Fernandez</p>
+                    </footer>
+                </article>
+                <article id="EDD">	
+                    <header>
+                        <h3>Entornos de Desarrollo</h3>
+                    </header>
+                    <table>
+                        <thead>			
+                            <tr>
+                                <th>Horas</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miercoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>De 08:30 <br> Hasta 09:20</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"><abbr title="Entornos De Desarrollo"><b>EDD</b></abbr> <br> <abbr title="Javier Coque García"><i>JCIF</i></abbr></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>							
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>De 09:20 <br> Hasta 10:10</td>
+                            </tr>
+                            <tr>
+                                <td>De 10:10 <br> Hasta 11:00</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td><abbr title="Entornos De Desarrollo"><b>EDD</b></abbr> <br> <abbr title="Javier Coque García"><i>JCIF</i></abbr></td>
+                            </tr>
+                            <tr>
+                                <td>De 11:25 <br> Hasta 12:15</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>De 12:15 <br> Hasta 13:05</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>De 13:05 <br> Hasta 13:55</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <footer>
+                        <p>Profesor/a. Javier Coque García</p>
+                    </footer>
+                </article>
+                <article id="SINF"> 
+                    <header>
+                        <h3>Sistemas Informaticos</h3>
+                    </header>
+                    <table>
+                        <thead>			
+                            <tr>
+                                <th>Horas</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miercoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>De 08:30 <br> Hasta 09:20</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>De 09:20 <br> Hasta 10:10</td>
+                            </tr>
+                            <tr>
+                                <td>De 10:10 <br> Hasta 11:00</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"><abbr title="Sistemas Informaticos"><b>SINF</b></abbr> <br><abbr title="Valter Jorge de Sousa Raposo"><i>VSIF</i></abbr> </td>
+                                <td rowspan="2"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>De 11:25 <br> Hasta 12:15</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>De 12:15 <br> Hasta 13:05</td>
+                                <td rowspan="2"><abbr title="Sistemas Informaticos"><b>SINF</b></abbr> <br><abbr title="Valter Jorge de Sousa Raposo"><i>VSIF</i></abbr></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"><abbr title="Sistemas Informaticos"><b>SINF</b></abbr> <br><abbr title="Valter Jorge de Sousa Raposo"><i>VSIF</i></abbr></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>De 13:05 <br> Hasta 13:55</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <footer>
+                        <p>Profesor/a. Valter Jorge de Sousa Raposo</p>
+                    </footer>
+                </article>
+                <article id="FOL"> 
+                    <header>
+                        <h3>Formación y Orientación Laboral</h3>
+                    </header>
+                    <table>
+                        <thead>			
+                            <tr>
+                                <th>Horas</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miercoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>De 08:30 <br> Hasta 09:20</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>De 09:20 <br> Hasta 10:10</td>
+                            </tr>
+                            <tr>
+                                <td>De 10:10 <br> Hasta 11:00</td>
+                                <td rowspan="2"><abbr title="Formación y Orientación Laboral"><b>FOL</b></abbr> <br><abbr title="Maria Enriqueta Gonzalez Carnero"><i>MGFO</i></abbr> </td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>De 11:25 <br> Hasta 12:15</td>
+                                <td><abbr title="Formación y Orientación Laboral"><b>FOL</b></abbr> <br><abbr title="Maria Enriqueta Gonzalez Carnero"><i>MGFO</i></abbr></td>
+                            </tr>
+                            <tr>
+                                <td>De 12:15 <br> Hasta 13:05</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>De 13:05 <br> Hasta 13:55</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <footer>
+                        <p>Profesor/a. Maria Enriqueta Gonzalez Carnero</p>
+                    </footer>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <table class="profe">
+                <tr>
+                    <th>AMB</th>
+                    <td>AMBROSIO CASADO FERNANDEZ</td>
+                    <th>ARIF</th>
+                    <td>AMOR RODRIGUEZ NAVARRO </td>
+                    <th>JCIF</th>
+                    <td>JAVIER COQUE GARCÍA</td>
+                </tr>
+                <tr>
+                    <th>MELI</th>
+                    <td>HERMELINDA RAMOS OSORIO</td>
+                    <th>MGFO</th> 
+                    <td>MARIA ENRIQUETA GONZALEZ CARNERO</td>
+                    <th>VSIF</th>
+                    <td>VALTER JORGE DE SOUSA RAPOSO</td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <th class="LMSGI">LMSGI</th>
+                    <td class="LMSGI">Lenguaje de Marcas y Sistemas de Gestion Informaticos</td>
+                    <th class="FOL">FOL</th>
+                    <td class="FOL">Formación y Orientación Laboral</td>
+                    <th class="SINF">SINF</th>
+                    <td class="SINF">Sistemas Informaticos</td>
+                </tr>
+                <tr>
+                    <th class="PROG">PROG</th>
+                    <td class="PROG">Programación</td>
+                    <th class="BBDD">BBDD</th> 
+                    <td class="BBDD">Bases de Datos</td>
+                    <th class="EDD">EDD</th>
+                    <td class="EDD">Entornos De Desarrollo</td>
+                </tr>
+            </table>
+            <p>"2021-22 IES LOS SAUCES. Todos los derechos reservados.Victor Blanco Rodrigo"</p>
+        </footer>
+    </body>
+</html>

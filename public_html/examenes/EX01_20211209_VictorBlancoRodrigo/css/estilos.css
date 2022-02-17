@@ -1,0 +1,91 @@
+/* 
+    Created on : 7 dic. 2021, 10:46:44
+    Author     : amor
+*/
+/* reset estilos */
+* { margin:0px; padding:0px; box-sizing: border-box;}
+a {
+    text-decoration:none; 
+    color:#000;}
+ul, ol {list-style: none;}
+/* body */
+
+@font-face{
+    font-family: 'Ubuntu';
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");   
+}
+
+#contenido-principal{
+    background-color: #fff;
+    margin: 10px;
+    font-family: 'Ubuntu',sans-serif;
+}
+html{
+    width: 1024px;
+    margin: auto; 
+    background:url(../images/general.jpg);
+}
+nav,.footer-web{
+    background-color: #00aeef;
+    color: #fff;
+    padding: 30px;
+}
+ol>li{
+    display: inline-block;
+    border-right: solid #fff;
+    padding: 25px 15px;
+}
+
+footer>div{
+    text-align: center;
+    vertical-align: bottom;
+}
+section{
+    clear: both;
+}
+section:last-child>article{
+    width: 30%;
+    margin-right:5px;
+    float: left;
+    position: relative;
+    
+}
+
+section:last-child img{
+    width: 340px;
+}
+
+section>header{
+    border-left: solid #00aeef;
+}
+
+h2,h1{
+    margin-left: 10px;
+}
+
+h2{
+    color: #00aeef;
+    text-transform: uppercase;
+}
+
+main{
+    margin: 10px;
+}
+
+h1{
+    text-transform:capitalize;
+    font-variant: small-caps;
+    letter-spacing: 10px;
+}
+
+a{
+    color: white;
+}
+
+section{
+    margin-bottom: 15px;
+}
+
+address{
+    margin-top: 5px;
+}

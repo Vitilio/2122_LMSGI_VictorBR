@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+El contenido del tipo de elemento "prediccion" debe coincidir con "(municipio,dia)". [99] 
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <!--Declaracion de tipos-->
+    <xs:simpleType name="tipoCielo">
+        <xs:restriction base="xs:integer">
+            <xs:maxInclusive value="100"/>
+            <xs:minInclusive value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="maxMin">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="-100"/>
+            <xs:maxInclusive value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="speed">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="400"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="probable">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!--Declaracion de elementos-->
+    <xs:element name="prediccion">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="municipio">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre"></xs:element>
+                            <xs:element name="provincia"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="dia" maxOccurs="7">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="prob_precipitacion" type="probable">
+                            </xs:element>
+                            <xs:element name="estado_cielo">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="tipoCielo">
+                                            <xs:attribute name="descripcion" type="xs:string" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="viento">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="direccion">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="Norte|Sur|Este|Oeste|Noreste|Noroeste|Sureste|Suroeste"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="velocidad" type="speed"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="temperatura">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="maxima" type="maxMin"/>
+                                        <xs:element name="minima"  type="maxMin"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="fecha" type="xs:date" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

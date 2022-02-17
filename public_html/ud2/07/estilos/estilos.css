@@ -1,0 +1,67 @@
+a{
+    color:#39ba3c;
+    padding: 8px 4px;
+    margin: 32px;
+    font-size: 80px;
+    text-decoration: none;
+}
+a.logo-1{
+    font-family: 'Kings', cursive;
+}
+a.logo-2{
+    font-family: 'Oswald', sans-serif;
+}
+a.logo-3{
+    font-family: 'Yuji Mai', serif;
+}
+a.logo-4{
+    font-family: 'Major Mono Display', monospace;
+}
+span{
+    color:#8f04ff;
+}
+
+.content{
+    width: 100%;
+    max-width: 600px;
+    padding: 25px 50px 10px 50px;
+    border: 1px solid;
+    border-color: red red green orange;
+    border-style: dashed dotted;
+    margin-left:  20cm;
+}
+
+.content>div{
+    width: 30%;
+    max-width: 300px;
+    padding: 25px 10px; 
+    border: 2px solid red;
+    margin: 30px 25px;
+    background-color: lightskyblue;
+}
+
+div.content>div:nth-child(odd){
+    margin:0 auto;
+}
+div.content>div:nth-child(even){
+    text-align: center;
+}
+div.content>div:nth-child(1){
+    font-family: 'Verdana', sans-serif;
+}
+div.content>div:nth-child(2){
+    font-family: 'Didot', serif;
+}
+div.content>div:nth-child(3){
+    font-family: 'Freemono', monospace;
+}
+div.content>div:nth-child(4){
+    font-family: 'Roboto', sans-serif;
+}
+div.content>div:nth-child(5){
+    font-family: 'akronim';
+    font-size: 24px;
+}
+div.content>div:nth-child(6){
+    font-family: 'Montserrat', sans-serif;
+}

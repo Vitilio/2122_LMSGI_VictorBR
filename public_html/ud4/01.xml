@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE mail SYSTEM "01.dtd">
+<!--
+Escribir un documento XML que almacene la información de un mail y contenga la siguiente información: 
+remitente, destinatario(s), fecha del mensaje, asunto, mensaje, ficheros adjuntos 
+(por cada fichero debe especificar el nombre y el tipo MIME). No utilizar atributos.
+-->
+<mail 
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='01.xsd'>
+    <remitente>victor.blarod@educa.jcyl.es</remitente>
+    <destinatarios>
+        <destinatario>marodriguezn@educa.jcyl.es</destinatario>
+        <destinatario>david.apasir@educa.jcyl.es</destinatario>
+        <destinatario>ricardo.santom@educa.jcyl.es</destinatario>
+    </destinatarios>
+    <fecha>2022-01-20</fecha>
+    <asunto>Examen Final</asunto>
+    <mensaje>Hola que hase</mensaje>
+    <ficheros>
+        <fichero>
+            <nombre>informe.pdf</nombre>
+            <tipo>application/pdf</tipo>
+        </fichero>
+    </ficheros>
+</mail>

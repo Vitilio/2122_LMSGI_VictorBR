@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Fecha: 13/1/2022
+Descripcion: Noticias del pais
+Documento: RSS
+3 items,Etiquetas opcionales e imagen de portada
+-->
+
+
+<rss version="2.0">
+    <channel>
+        <title>El Pais - Ultimas Noticias</title>
+        <link>https://elpais.com</link>
+        <description>Es un periodico digital con las novedades</description>
+        <language>es-es</language>
+        <copyright>2021 Victor Blanco Rodrigo. Todos los derechos reservados.</copyright>
+        <lastBuildDate> Sun, 16 Jan 2022 19:32:10 +0100 </lastBuildDate>
+        <item>
+            <title>Almaty, zona cero de las protestas de Kazajistán</title>
+            <link>https://elpais.com/internacional/2022-01-13/almaty-zona-cero-de-las-protestas-de-kazajistan.html</link>
+            <description>La ciudad que vivió las escenas más duras de las revueltas recupera la normalidad bajo un férreo control militar</description>
+            <guid isPermaLink="true">https://elpais.com/internacional/2022-01-13/almaty-zona-cero-de-las-protestas-de-kazajistan.html</guid>
+            <category>Internacional/Noticias de Kazajistan</category>
+            <pubDate> Thu, 13 Jan 2022 02:21:00 +0100 </pubDate>
+            <author>guilleapr@gmail.com (Guillermo Abril)</author>
+        </item>
+        <item>
+            <title>Djokovic abandona Australia tras perder su recurso contra el Gobierno</title>
+            <link>https://elpais.com/deportes/2022-01-16/el-caso-djokovic-visto-para-sentencia.html</link>
+            <description>El tribunal decide por unanimidad dar la razón al Ejecutivo sobre la retirada del visado al tenista serbio, no vacunado, que no podrá defender el título de 2021</description>
+            <guid isPermaLink="true">https://elpais.com/deportes/2022-01-16/el-caso-djokovic-visto-para-sentencia.html</guid>
+            <category>Deportes/Caso Novak Djokovic</category>
+            <pubDate>Sun, 16 Jan 2022 04:30:00 +0100</pubDate>
+            <author>oripuigd@hotmail.com (Oriol Puigdemont)</author>
+        </item>    
+    </channel>
+</rss>

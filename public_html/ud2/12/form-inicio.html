@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="es">
+    <head>
+        <title>Inicio de sesion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Victor Blanco Rodrigo">
+        <meta name="application-name" content="Netflix">
+        <meta name="description" content="Pagina de inicio de sesion en Netflix">
+        <meta name="keywords" content="sesion,contraseña,correo,telefono,iniciar,netflix" >
+        <!-- Recomendado 5 o 8 palabras clave, Cada palabra clave puede estar constituida por hasta 4 o 5 palabras. -->
+        <meta name="robots" content="index, follow">      
+        <link href="css/estilo.css" rel="stylesheet" type="text/css" >
+        <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+    </head>
+    <body>
+        <main>
+            <a href="index.html" class="inicio">NEFLIX</a>
+            <form action="loginNeflix.php" method="get">
+                <fieldset id="inicio">
+                    <h2>Iniciar sesion</h2>
+                    <p><input type="email" name="usuario" size="64" maxlength="32" placeholder="Correo electronico o numero de telefono" id="mail"></p>
+                    <p><input type="password" name="password" size="64" maxlength="16" placeholder="Contraseña" id="paso"></p>
+                    <p><input type="submit" value="Iniciar sesión" id="is"></p>
+                    <p><input type="checkbox" id="check">Recuerdame</p>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>

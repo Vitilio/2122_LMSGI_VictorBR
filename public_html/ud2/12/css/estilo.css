@@ -1,0 +1,85 @@
+*{
+    margin: auto;
+}
+body{
+    background: url(../images/neflix-website.jpg) no-repeat;    
+    font-family: cursive;
+}﻿
+
+p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 40px;
+}
+
+fieldset{
+    border: none;
+    margin: auto; 
+}
+
+#is,#start,.form{
+    color: white;
+    background-color: #ff0000;
+    border: solid red 1px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#is:hover{
+    background-color: white;
+    color: red;
+    border-color: white;
+}
+.form{
+    font-size: 20px;
+    padding: 5px 40px;
+    display:inline-block;
+    position:relative;
+    left:45%;
+}
+
+.form:hover{
+    text-decoration: underline #EEEFEE;
+}
+
+form{
+    margin: auto;
+    text-align: center;
+        
+}
+
+#inicio{
+    background-color: black;
+    margin: 100px 600px;
+    opacity: 0.9;
+}
+
+p>#check,h2{
+    color: white;
+}
+
+p,div{
+    text-align: center;
+    color: #EEEFEE;
+}
+
+h2{
+    text-align: center;
+}
+
+input:not(#check){
+    width: 300px;
+    margin: 5px;
+}
+
+.titulo{
+    text-align: left;
+}
+
+#index>input{
+    width: auto;
+}

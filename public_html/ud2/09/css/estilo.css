@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 nov. 2021, 17:59:16
+    Author     : Usuario
+*/
+*{
+    margin: auto;
+    width: 1024px;
+}
+body *{
+    margin: 8px;
+}
+h2{
+    
+}
+td,th{
+    border: 1px dotted white;
+    vertical-align: middle;
+    color: white;
+    padding-bottom: 5px;
+    height: 50px;
+    width: 60px;
+    text-align: center;
+    
+}
+
+section header{
+    color: white;
+    border: 1px white solid;
+    padding: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+section footer{
+    color: white;
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+article table{
+    margin: auto;
+    
+}
+footer table:first-child{
+    background-color: #0099cc;
+    padding: 35px;
+    
+}
+
+#HORARIO{background-color: grey;}
+#BBDD,.BBDD{ background-color: #00cccc;}
+#PROG,.PROG{ background-color: #39ba3c;}
+#EDD,.EDD{  background-color: darkviolet;}
+#LMSGI,.LMSGI{background-color: #cccc00;}
+#FOL,.FOL{  background-color: pink;}
+#SINF,.SINF{ background-color: red;}
+
+th{
+    font-weight: bold;
+}
+
+.profe th{
+    font-style: italic;
+}
+
+article{
+    padding: 2px;
+}
+
+table{
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+main>header,nav,body>footer>p{
+    background-color: forestgreen;
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+
+body>footer>p{
+    font-style: italic;
+    padding-left: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+figcaption{
+    font-style: italic;
+    font-size: 7px;
+    position: absolute;
+    margin-top: -5px;
+
+}
+img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-top: -60px;
+}
+h1{
+    margin-left: 80px;
+}

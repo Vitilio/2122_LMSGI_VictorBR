@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 ene. 2022, 10:25:11
+    Author     : daw1
+*/
+
+body{ 
+    background-image:url("matrix-green-numbers.jpg");
+}
+h1,p{
+    color: white;
+}
+.topmenu{
+    background-color: grey;
+    padding: 30px;
+    margin: 0px;
+}

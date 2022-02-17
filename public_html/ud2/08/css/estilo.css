@@ -1,0 +1,129 @@
+/* 
+    Created on : 
+    File        : estilo.css
+    Description : 
+
+    #84AF8E  VERDE
+    #87000A  ROJO
+    #D54842  ROJILLO
+    #EEEFEE  BLANCO
+    #D79A51  AMARILLO
+*/
+*{
+    font-family: calibri,arial,sans-serif;
+}
+
+hr{
+    border-color: red;
+    border-style: solid;
+    line-height: 15px;
+    width: 75%;
+}
+body{
+    width: 1024px;
+    margin-left: 200px;
+    margin-right: 300px;
+    background: url("../images/Le_petit_prince.png") no-repeat 73% 0%;
+    background-size: 200px;
+    background-attachment:fixed;
+}
+
+h1{
+    color: #84AF8E;
+    text-decoration: underline wavy #D79A51;
+    text-transform: capitalize;
+    font-family: Goldman Bold;
+    letter-spacing:10px;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+p{
+    color: #EEEFEE;
+    background-color: #84AF8E;
+    font-family: Goldman;
+}
+
+h1,p{
+    margin-bottom: 15px;
+}
+
+span{
+    color: #87000A;
+    font-family: Goldman;
+}
+
+ul>li:nth-child(1){
+    border-bottom: none;
+}
+
+.lista3 li:nth-child(2){
+    border-bottom: none;
+}
+
+.lista2 li:nth-child(2){
+    border-bottom: none;
+}
+
+.lista1{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.lista2{
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+.lista3{
+    list-style-image: url("../images/sqpurple.png");
+    list-style-position: inside;
+}
+
+.lista5{
+    list-style-type: none;
+    border-left: 5px solid #D54842;
+    background-color: #87000A;
+    color: #D54842;
+    padding:5px 38px;
+}
+
+.lista5>li{
+    margin-left: -34px;
+    border: none;
+}
+
+.lista6>li{
+    color: #87000A;
+    border: 2px dotted red;
+    list-style: disc;
+}
+
+ol{
+    background-color: #87000A;
+    border: 3px dashed #D54842;
+}
+
+ol>li:before{
+    content: "#";
+    color: #D54842;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ol>li{
+    margin:8px 15px 8px 25px;
+    background-color: #D54842;
+    color: #87000A;
+    border: none;
+}
+
+li{
+    border: 1px dotted #87000A;
+}
+
+
+
+
+

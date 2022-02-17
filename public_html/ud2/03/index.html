@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+	Descripcion: 3ªPractica de html	(Formulario)
+	Autor: Víctor Blanco Rodrigo
+	Fecha creación/modificación: 1/11/2021 | 5/11/2021	
+-->
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Formulario de compra de supermercado">
+		<meta name="author" content="Víctor Blanco Rodrigo">
+		<meta name="keywords" content="form,compra,factura">
+		<meta http-equiv="refresh" content="45">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="robots" content="index,nofollow">
+		<title>HTML 03 Víctor Blanco Rodrigo</title>
+		<link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+		<style>body{
+				background-image: url("https://i.blogs.es/0baa91/39f95492-38ee-4f16-92e1-ba5161f4a958/1366_2000.jpeg");
+			   }
+			   h1{
+				color:#E181E0;
+			   }
+		</style>
+	</head>
+	<body>
+		<header><h1>Plantilla de formulario de Supermercado </h1></header>
+		<form action="alta.php" method="GET">
+			<fieldset style="background-color: #C8B294">
+				<fieldset style="background-color: #B3EFA5">
+					<legend>Datos Personales</legend>	
+					<p><label for="nomb">Nombre de Usuario <input type="text" maxlength="20" id="nomb"></label>
+					<label for="correo">Email <input type="email" id="correo" maxlength="30" required></label></p>
+					<p><label for="paso">Contraseña <input type="password" id="paso" required ></label></p>
+					<p><label for="tele">Telefono Domicilio <input type="tel" id="tele" maxlength="14" name="Telefono" 
+					pattern="/([0-9]{3})/ [0-9]{3} [ -] [0-9]{4}" placeholder="(000) 000-0000" required></label></p>
+					<p><label for="post">Codigo Postal <input type="number" id="post" min="1" max="99999" required></label>
+					<label for="prov">Provincia:</label>
+					<select id="prov" name="provincia">
+						<option value="Za">Zamora</option>
+						<option value="Va">Valladolid</option>
+						<option value="Soria">Soria</option>
+						<option value="Se">Segovia</option>
+						<option value="Sa">Salamanca</option>
+						<option value="Pa">Palencia</option>
+						<option value="Le">Leon</option>
+						<option value="Bu">Burgos</option>
+						<option value="Av">Avila</option>
+					</select>
+					</p>
+				</fieldset>
+				<fieldset style="background-color: #A5EFE6">
+					<legend>Informacion de pedido</legend>	
+					<p><label>Metodo de entrega</label></p>
+					<p><input type="radio" name="entrega" id="ecasa" checked="checked" required><label for="ecasa" >A domicilio</label></p>
+					<p><input type="radio" name="entrega" id="ealli" required><label for="ealli" >En tienda</label></p>
+					<p><input type="radio" name="entrega" id="click" required><label for="click" >Click & Collect</label></p>
+					<br>
+					<label>¿Posibles alergias o intolerancias?</label>
+					<p><label for="alergia1">Ninguna<input type="checkbox" name="alergia1" id="alergia1" checked="checked"></label></p>	
+					<p><label for="alergia2">Lactosa<input type="checkbox" name="alergia2" id="alergia2"></label></p>
+					<p><label for="alergia3">Gluten<input type="checkbox" name="alergia3" id="alergia3"></label></p>
+					<p><label for="alergia4">Huevo<input type="checkbox" name="alergia4" id="alergia4"></label></p>
+					<p><label for="alergia5">Frutas/Verduras<input type="checkbox" name="alergia5" id="alergia5"></label></p>
+					<p><label for="alergia6">Marisco/Pescado<input type="checkbox" name="alergia6" id="alergia6"></label></p>
+					<br>
+					<p><label for="encar">Fecha de encargo<input type="date" name="encar" id="encar" value="2021-11-05" min="1970-01-01" required></label>	
+					<label for="hora">Hora preferente para la entrega<input type="time" name="hora" id="hora" value="12:15" required></label></p>
+					<p><label for="cosa">Que desea comprar: <textarea name="cosa" id="cosa" required>Escribe aquí</textarea></label></p>
+					<p><label for="colour">¿De que color quiere la bolsa?<input type="color" id="colour"></label></p>
+					<input type="hidden" id="pedidoId" name="pedidoId" value="527831 ">
+					<br>
+					<p><label for="review">Opinion(Del 1 al 5)</label><input type="range" id="review" value="3" max="5" min="1"></p>
+					
+				</fieldset>
+					<p><input type="reset" value="Vaciar Formulario"><input type="image" src="images/carrito.png" alt="Enviar" width="50" height="50"></p>
+			</fieldset>
+		</form>
+	</body>
+</html>

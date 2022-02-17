@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE prediccion SYSTEM "10.dtd">
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<prediccion 
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='10.xsd'>
+    <municipio id="BenZa">
+        <nombre>Benavente</nombre>
+        <provincia>Zamora</provincia>
+    </municipio>
+    <dia fecha="2022-02-01">
+        <prob_precipitacion>1</prob_precipitacion>
+        <estado_cielo descripcion="Soleado">85</estado_cielo>
+        <viento>
+            <direccion>Norte</direccion>
+            <velocidad>33</velocidad>
+        </viento>
+        <temperatura>
+            <maxima>13</maxima>
+            <minima>-1</minima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-02-02">
+        <prob_precipitacion>2</prob_precipitacion>
+        <estado_cielo descripcion="Parcialmente soleado">50</estado_cielo>
+        <viento>
+            <direccion>Norte</direccion>
+            <velocidad>23</velocidad>
+        </viento>
+        <temperatura>
+            <maxima>13</maxima>
+            <minima>-2</minima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-02-03">
+        <prob_precipitacion>2</prob_precipitacion>
+        <estado_cielo descripcion="Parcialmente soleado">60</estado_cielo>
+        <viento>
+            <direccion>Sureste</direccion>
+            <velocidad>14</velocidad>
+        </viento>
+        <temperatura>
+            <maxima>14</maxima>
+            <minima>1</minima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-02-04">
+        <prob_precipitacion>1</prob_precipitacion>
+        <estado_cielo descripcion="Muy nublado">90</estado_cielo>
+        <viento>
+            <direccion>Noreste</direccion>
+            <velocidad>20</velocidad>
+        </viento>
+        <temperatura>
+            <maxima>13</maxima>
+            <minima>0</minima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-02-05">
+        <prob_precipitacion>1</prob_precipitacion>
+        <estado_cielo descripcion="Parcialmente soleado">45</estado_cielo>
+        <viento>
+            <direccion>Este</direccion>
+            <velocidad>28</velocidad>
+        </viento>
+        <temperatura>
+            <maxima>13</maxima>
+            <minima>-1</minima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-02-06">
+        <prob_precipitacion>1</prob_precipitacion>
+        <estado_cielo descripcion="Parcialmente soleado">70</estado_cielo>
+        <viento>
+            <direccion>Noreste</direccion>
+            <velocidad>22</velocidad>
+        </viento>
+        <temperatura>
+            <maxima>12</maxima>
+            <minima>-4</minima>
+        </temperatura>
+    </dia>
+    <dia fecha="2022-02-07">
+        <prob_precipitacion>8</prob_precipitacion>
+        <estado_cielo descripcion="Soleado">100</estado_cielo>
+        <viento>
+            <direccion>Noreste</direccion>
+            <velocidad>11</velocidad>
+        </viento>
+        <temperatura>
+            <maxima>14</maxima>
+            <minima>-5</minima>
+        </temperatura>
+    </dia>
+</prediccion>

@@ -1,0 +1,31 @@
+<!ELEMENT cvitae (nombre,apellidos,anyoNac,residencia,datosContacto)>
+<!ATTLIST cvitae
+          xmlns:xsi CDATA #IMPLIED
+          xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT residencia (ciudad,pais)>
+<!ELEMENT datosContacto (telefono,email,linkedin,descripcion,competencias,formaciones,experiencias)>
+<!ELEMENT competencias (competencia+)>
+<!ELEMENT competencia EMPTY>
+<!ATTLIST competencia nombre CDATA #REQUIRED 
+                       nivel (alto|medio|basico) "medio" >
+
+<!ELEMENT formaciones (formacion+)>
+<!ELEMENT formacion EMPTY>
+<!ATTLIST formacion   titulacion CDATA #REQUIRED
+                      centro CDATA #REQUIRED
+                      anyo CDATA #IMPLIED>
+<!ELEMENT experiencias (experiencia+)>
+<!ELEMENT experiencia EMPTY>
+<!ATTLIST experiencia puesto CDATA #REQUIRED
+                      empresa CDATA #REQUIRED
+                      anyoInicio CDATA #IMPLIED
+                      anyoFinal CDATA #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT anyoNac (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT linkedin (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
