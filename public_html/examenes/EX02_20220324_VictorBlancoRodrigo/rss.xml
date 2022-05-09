@@ -3,13 +3,15 @@
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
+
+El link es un http subnormal
 -->
 
 
 <rss version="2.0">
     <channel>
         <title>Novedades de Tecnologia de la Informacion VBR</title>
-        <link>file:///F:/DAW/2021-22/LMSGI/2122_LMSGI_VictorBR/LMSGIVBR2122/public_html/examenes/EX02_20220324_VictorBlancoRodrigo/rss.xml</link>
+        <link>https://daw103.ieslossauces.es/examenes/EX02_20220324_VictorBlancoRodrigo/rss.xml</link>
         <description>Canal con el que comprobar diferentes archivos relacionados con el examen</description>
         <category>xml</category>
         <category>open data</category>
@@ -18,21 +20,21 @@ and open the template in the editor.
         <pubDate>Thu, 23 Mar 2022 12:05:00 +0100</pubDate>
         <item>
             <title>Datos de la Tabla Periodica</title>
-            <link>file:///F:/DAW/2021-22/LMSGI/2122_LMSGI_VictorBR/LMSGIVBR2122/public_html/examenes/EX02_20220324_VictorBlancoRodrigo/tabla.xml</link>
+            <link>https://daw103.ieslossauces.es/examenes/EX02_20220324_VictorBlancoRodrigo/tabla.xml</link>
             <description>Tabla de atomos de la tabla periodica de elementos quimicos</description>
             <guid isPermaLink="true">file:///F:/DAW/2021-22/LMSGI/2122_LMSGI_VictorBR/LMSGIVBR2122/public_html/examenes/EX02_20220324_VictorBlancoRodrigo/tabla.xml</guid>
             <author>vicblanro@gmail.com(Victor Blanco Rodrigo)</author>
         </item>
         <item>
             <title>Validacion de la Tabla Periodica</title>
-            <link>file:///F:/DAW/2021-22/LMSGI/2122_LMSGI_VictorBR/LMSGIVBR2122/public_html/examenes/EX02_20220324_VictorBlancoRodrigo/tabla.xsd</link>
+            <link>https://daw103.ieslossauces.es/examenes/EX02_20220324_VictorBlancoRodrigo/tabla.xsd</link>
             <description>XML Schema que permite validar los elementos que conforman la tabla</description>
             <guid isPermaLink="true">file:///F:/DAW/2021-22/LMSGI/2122_LMSGI_VictorBR/LMSGIVBR2122/public_html/examenes/EX02_20220324_VictorBlancoRodrigo/tabla.xsd</guid>
             <author>vicblanro@gmail.com(Victor Blanco Rodrigo)</author>
         </item>
         <item>
             <title>Consultas en la BD alumnos</title>
-            <link>file:///F:/DAW/2021-22/LMSGI/2122_LMSGI_VictorBR/LMSGIVBR2122/public_html/examenes/EX02_20220324_VictorBlancoRodrigo/xpath.md</link>
+            <link>https://daw103.ieslossauces.es/examenes/EX02_20220324_VictorBlancoRodrigo/Xpath.md</link>
             <description>Consultas xpath de una base de datos de alumnos,notas,modulos y profesores</description>
             <guid isPermaLink="true">file:///F:/DAW/2021-22/LMSGI/2122_LMSGI_VictorBR/LMSGIVBR2122/public_html/examenes/EX02_20220324_VictorBlancoRodrigo/xpath.md</guid>
             <author>vicblanro@gmail.com(Victor Blanco Rodrigo)</author>

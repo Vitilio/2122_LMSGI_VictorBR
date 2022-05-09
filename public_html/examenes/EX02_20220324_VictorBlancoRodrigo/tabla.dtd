@@ -1,3 +1,4 @@
+<!--Falta definir los pattern -->
 <!ELEMENT tabla_periodica (atomo+)>
 <!ATTLIST tabla_periodica
           xmlns:xsi CDATA #IMPLIED
