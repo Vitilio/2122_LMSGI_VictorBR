@@ -1,0 +1,44 @@
+table,th,td{
+    border: 2px solid black;
+    margin: auto;
+    border-collapse: separate;
+}
+
+th,h1,table div:nth-last-child(1){
+    background-color: #387ab6;
+    color: #FFF;
+}
+
+body{
+    font-family: 'Permanent Marker', cursive;
+    margin: auto;
+}
+
+td:first-child{
+    text-align: center; 
+}
+
+td{
+    width: 400px;
+    height: 420px;
+}
+
+th{
+    padding: 15px;
+}
+
+p{
+    font-weight: bold;
+}
+
+table div:nth-last-child(1){
+    vertical-align: bottom;
+}
+
+h1,table div:nth-last-child(1){
+    font-variant: small-caps;
+}
+
+p,li,div div:not(div:nth-last-child(1)){
+    padding-bottom: 20px;
+}
