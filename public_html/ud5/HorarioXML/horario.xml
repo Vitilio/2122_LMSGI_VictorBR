@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<horario anyo="2021-22">
+    <curso tutor="JCIF">1DAW1</curso>
+    <clases>
+        <horas>
+            <hora_Ini>08:30:00</hora_Ini>
+            <hora_Fin>09:20:00</hora_Fin>
+            <lunes numH="2">LMSGI</lunes>
+            <martes numH="2">EDD</martes>
+            <miercoles numH="2">BBDD</miercoles>
+            <jueves numH="2">PROG</jueves>
+            <viernes numH="2">BBDD</viernes>
+
+        </horas>
+        <horas>
+            <hora_Ini>09:20:00</hora_Ini>
+            <hora_Fin>10:10:00</hora_Fin>
+        </horas>
+        <horas>
+            <hora_Ini>10:10:00</hora_Ini>
+            <hora_Fin>11:00:00</hora_Fin>
+            <lunes numH="2">FOL</lunes>
+            <martes numH="2">BBDD</martes>
+            <miercoles numH="2">SINF</miercoles>
+            <jueves numH="2">LMSGI</jueves>
+            <viernes numH="1">EDD</viernes>
+        </horas>
+        <horas>
+            <hora_Ini>11:25:00</hora_Ini>
+            <hora_Fin>12:15:00</hora_Fin>
+            <viernes numH="1">FOL</viernes>
+        </horas>
+        <horas>
+            <hora_Ini>12:15:00</hora_Ini>
+            <hora_Fin>13:05:00</hora_Fin>
+            <lunes numH="2">SINF</lunes>
+            <martes numH="2">PROG</martes>
+            <miercoles numH="2">PROG</miercoles>
+            <jueves numH="2">SINF</jueves>
+            <viernes numH="1">PROG</viernes>
+        </horas>
+        <horas>
+            <hora_Ini>13:05:00</hora_Ini>
+            <hora_Fin>13:55:00</hora_Fin>
+        </horas>
+    </clases>
+    <profesorado>
+        <profesor id="AMB">
+            <nombre>Ambrosio</nombre>
+            <apellido1>Casado</apellido1>
+            <apellido2>Fernandez</apellido2>
+        </profesor>
+        <profesor id="ARIF">
+            <nombre>Amor</nombre>
+            <apellido1>Rodriguez</apellido1>
+            <apellido2>Navarro</apellido2>
+        </profesor>
+        <profesor id="JCIF">
+            <nombre>Javier</nombre>
+            <apellido1>Coque</apellido1>
+            <apellido2>Garcia</apellido2>
+        </profesor>
+        <profesor id="MELI">
+            <nombre>Hermelinda</nombre>
+            <apellido1>Ramos</apellido1>
+            <apellido2>Osorio</apellido2>
+        </profesor>
+        <profesor id="MGFO">
+            <nombre>Maria Enriqueta</nombre>
+            <apellido1>Gonzalez</apellido1>
+            <apellido2>Carnero</apellido2>
+        </profesor>
+        <profesor id="VSIF">
+            <nombre>Valter Jorge</nombre>
+            <apellido1>de Sousa</apellido1>
+            <apellido2>Raposo</apellido2>
+        </profesor>
+    </profesorado>
+    <asignaturas>
+        <asignatura cod="BBDD">Bases de Datos</asignatura>
+        <asignatura cod="EDD">Entornos De Desarrollo</asignatura>
+        <asignatura cod="FOL">Formacion y Orientacion Laboral</asignatura>
+        <asignatura cod="LMSGI">Lenguaje de Marcas y Sistemas de Gestion Informáticos</asignatura>
+        <asignatura cod="PROG">Programacion</asignatura>
+        <asignatura cod="SINF">Sistemas Informaticos</asignatura>
+    </asignaturas>
+    <imparte>
+        <asignatura codA="BBDD" idP="MELI"></asignatura>
+        <asignatura codA="EDD" idP="JCIF"></asignatura>
+        <asignatura codA="FOL" idP="MGFO"></asignatura>
+        <asignatura codA="LMSGI" idP="ARIF MELI"></asignatura>
+        <asignatura codA="PROG" idP="AMB"></asignatura>
+        <asignatura codA="SINF" idP="VSIF"></asignatura>
+    </imparte>
+</horario>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <!--Declaracion de tipos--> 
+    <xs:simpleType name="siglaAsignatura">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="EDD|SINF|LMSGI|PROG|BBDD|FOL"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!--Declaracion de elementos--> 
+    <xs:element name="horario">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="asignaturas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="filaA" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="horas">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="inicio" type="xs:time"/>
+                                                    <xs:element name="final" type="xs:time"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="lunes">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="siglaAsignatura"/>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="martes">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="siglaAsignatura"/>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="miercoles">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="siglaAsignatura"/>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="jueves">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="siglaAsignatura"/>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="viernes">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="siglaAsignatura"/>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="num" type="xs:string" use="optional"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="profesorado">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="profesor" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="siglas"/>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="tutor" type="xs:boolean" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="curso" type="xs:string" use="required"/>
+            <xs:attribute name="anyo" type="xs:string" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

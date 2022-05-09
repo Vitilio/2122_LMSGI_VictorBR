@@ -1,0 +1,26 @@
+<!ELEMENT horario (asignaturas,profesorado)>
+<!ATTLIST horario
+          curso CDATA #REQUIRED
+          anyo CDATA #IMPLIED
+          xmlns:xsi CDATA #IMPLIED
+          xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT asignaturas (filaA+)>
+<!ELEMENT profesorado (profesor+)>
+<!ELEMENT filaA (horas,lunes,martes,miercoles,jueves,viernes)>
+<!ATTLIST filaA
+          num ID #IMPLIED>
+<!ELEMENT horas (inicio,final)>
+<!ELEMENT profesor (siglas,nombre)>
+<!ATTLIST profesor
+          tutor CDATA #REQUIRED>
+<!ELEMENT inicio (#PCDATA)>
+<!ELEMENT final (#PCDATA)>
+<!ELEMENT siglas (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT lunes (#PCDATA)>
+<!ELEMENT martes (#PCDATA)>
+<!ELEMENT miercoles (#PCDATA)>
+<!ELEMENT jueves (#PCDATA)>
+<!ELEMENT viernes (#PCDATA)>
+
+
