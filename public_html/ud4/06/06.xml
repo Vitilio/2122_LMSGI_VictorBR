@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+
+<!DOCTYPE ejemplos SYSTEM "06.dtd">
+<ejemplos
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='06.xsd'>
+    <ejemplo>
+        <lenguaje>java</lenguaje>
+        <codigo>
+            public class Hello {
+            public static void main(String[] args) {
+            System.out.println("Hola mundo");
+            }
+            } 
+        </codigo>
+    </ejemplo>
+    <ejemplo>
+        <lenguaje>html</lenguaje>
+        <codigo> 
+            <![CDATA[
+            <html>
+                <head>
+                    <title>ejemplo hola mundo</title>
+                </head>
+                <body>
+                    <P>Hola Mundo</P>
+                </body>
+            </html>
+            ]]>
+        </codigo>
+    </ejemplo>
+</ejemplos>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapaestelar SYSTEM "mapaestelar.dtd">
+<!--
+Fallos
+XML
+mes->Es valor numerico no string 
+lluviaDeMeteoros->No hay valor nombre, es multiple
+DTD
+(,)+ != (+,+)
+Ante la duda #Implied
+positiveInteger
+minOccurs = 0 -> Opcional
+-->
+
+<mapaestelar xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+             xsi:noNamespaceSchemaLocation='mapaestelar.xsd'>
+    <constelacion nombreLatin="Ursa Maior">
+        <nombreEspanol>La Osa Mayor</nombreEspanol>
+        <superficie>1279.7</superficie>
+        <estrellas numEstrellas="209">
+            <asterismo>7</asterismo>
+            <masBrillante luminosidad="108">Alioth</masBrillante>
+        </estrellas>
+        <objetos>
+            <cumulos>false</cumulos>
+            <nebulosas>true</nebulosas>
+            <galaxias>true</galaxias>
+            <cuasares>false</cuasares>
+            <lluviaDeMeteoros>Kappa Ursa Mayóridas</lluviaDeMeteoros>
+            <lluviaDeMeteoros>Lambda Ursa Mayóridas</lluviaDeMeteoros>
+            <lluviaDeMeteoros>Psi Ursa Mayóridas</lluviaDeMeteoros>
+            <lluviaDeMeteoros>Ursa Mayóridas de octubre</lluviaDeMeteoros>
+        </objetos>
+        <colindantes>
+            <nombre>Bootes</nombre>
+            <nombre>Camelopardalis</nombre>
+            <nombre>Canes Venatici</nombre>
+            <nombre>Draco</nombre>
+            <nombre>Leo</nombre>
+            <nombre>Leo Minor</nombre>
+            <nombre>Lynx</nombre>
+        </colindantes>
+        <observacion>
+            <hemisferio>norte</hemisferio>
+            <mes>--04</mes>
+            <hora>21:00:00</hora>
+        </observacion>
+    </constelacion>
+    <estrella>
+        <nombre>Alioth</nombre>
+        <constelacion>Osa Mayor</constelacion>
+        <distancia medida="anyos luz">81</distancia>
+        <luminosidad medida="soles">108</luminosidad>
+        <temperatura medida="K">9400</temperatura>
+        <masa medida="soles">3</masa>
+    </estrella>
+</mapaestelar>

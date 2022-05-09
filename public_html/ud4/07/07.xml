@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE grupo SYSTEM "07.dtd">
+<!--
+Tenemos que almacenar información sobre un grupo de estudiantes, 
+por cada estudiante almaceno la siguiente información: 
+nombre del estudiante y el código del estudiante. 
+Además, cada estudiante puede tener cero, uno o dos tutores, que a la vez son estudiantes.
+OJOOO
+ESTA MAL, MAAAL, MAAAAAAAAAAAAL
+No hay una entidad tutor, sino que es atributo de los estudiantes
+-->
+
+<grupo
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='07.xsd'>
+    <estudiante codest="e1" codtut="e3">
+        <nombre>Gerardo</nombre>
+    </estudiante>
+    <estudiante codest="e2">
+        <nombre>Antonio</nombre>
+    </estudiante>
+    <estudiante codest="e3" codtut="e2">
+        <nombre>Gonzalo</nombre>
+    </estudiante>
+</grupo>

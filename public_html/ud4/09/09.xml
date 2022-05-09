@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE textos SYSTEM "09.dtd">
+    
+<!--
+Declarar tres entidades internas:
+Se pide escribir un documento XML se visualizase el siguiente texto en el navegador y escribe el DTD que lo valide.:
+-->
+
+<textos
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='09.xsd'>
+    <texto>&obra; fue escrito por &escritor; </texto>
+    <texto>&escritor; nació el &fecha;</texto>
+</textos>
+

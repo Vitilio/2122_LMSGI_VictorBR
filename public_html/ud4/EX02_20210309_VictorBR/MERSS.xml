@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Ejercicio 2.- 
+Se pide crear un archivo RSS para un canal de noticias sobre los  planetas, de la web https://mapaestelar.com
+Donde se van añadiendo noticias o item  todos los meses el día 5 de cada mes. 
+Actualmente se han añadido tres noticias de los tres primeros planetas (mercurio.html, venus.html y tierra.html). 
+Cada artículo ha sido escrito por autores diferentes: John Paso,  Richard Blu, Mary Patio, respectivamente.
+El título del artículo es el nombre del planeta, y todos deben tener una pequeña descripción del artículo (inventada).
+-->
+
+
+<rss version="2.0">
+    <channel>
+        <title>Planetas del Sistema Solar</title>
+        <link>https://mapaestelar.com</link>
+        <description>Canal de noticias sobre los  planetas</description>
+        <copyright>2022 Victor Blanco Rodrigo. Todos los derechos reservados.</copyright>
+        <language>es-es</language>
+        <lastBuildDate> Sat, 5 Mar 2022 12:32:00 +0100</lastBuildDate>
+        <item>
+            <title>Mercurio</title>
+            <link>https://mapaestelar.com/mercurio.html</link>
+            <description>Noticias relacionadas con el planeta Mercurio</description>
+            <guid isPermalink="true">https://mapaestelar.com/mercurio.html</guid>
+            <author>johnP@gmail.com (John Paso)</author>
+            <pubDate>Wed, 5 Jan 2022 12:32:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Venus</title>
+            <link>https://mapaestelar.com/venus.html</link>
+            <description>Noticias relacionadas con el planeta Venus</description>
+            <guid isPermalink="true">https://mapaestelar.com/venus.html</guid>
+            <author>richblue@gmail.com (Richard Blu)</author>
+            <pubDate>Sat, 5 Feb 2022 12:32:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>La Tierra</title>
+            <link>https://mapaestelar.com/tierra.html</link>
+            <description>Noticias relacionadas con el planeta Tierra</description>
+            <guid isPermalink="true">https://mapaestelar.com/tierra.html</guid>
+            <author>mariapat@gmail.com (Mary Patio)</author>
+            <pubDate>Sat, 5 Mar 2022 12:32:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>
